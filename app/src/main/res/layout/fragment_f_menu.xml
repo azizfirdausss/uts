@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FMenu"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/L_img_1"
+        android:layout_width="147dp"
+        android:layout_height="101dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-33dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/gambar1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/L_img_1"
+        android:text="SELAMAT DATANG PUSKESMART!"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/L_txt_1"
+        />
+
+
+    <ImageView
+        android:id="@id/L_img_2"
+        android:layout_width="192dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/L_txt_1"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/login"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/L_img_2"
+        android:padding="30dp"
+        android:id="@+id/Ly_1">
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:text="Logout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/L_btn_4"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
